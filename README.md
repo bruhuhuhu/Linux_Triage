@@ -7,11 +7,13 @@
 - Ubuntu 16/18
 
 ### 2. Data collected:
-- DY & JJ to add the collected item and limitation check list on here. Paste the excel on Google sheet and upload it to here is fine. 
+The documentation regarding the data artifacts that are retrieved by the scripts can be found in the Triage.xlsx document that has been uploaded here.
 
 ### 3. Requirements:
 
-The scripts don't require other dependencies and is meant to run on just the tools that are usually installed on the operating systems that were tested. However for the maxiumum effect, sudo / root access rights would be much preferred. 
+The scripts don't require other dependencies and is meant to run on just the tools that are usually installed on the operating systems that were tested. However for the maxiumum effect, sudo / root access rights would be much preferred.
+The Python Data Parser script would need certain extra dependencies for the script to work more effectively. The extra dependencies are as follows:
+
 
 ### 4. Running instructions:
 
