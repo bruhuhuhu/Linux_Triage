@@ -1,14 +1,14 @@
-var1=`hostnamectl | grep 'Operating System' || echo 'None'`
+var1=`hostnamectl | grep 'Operating System' || echo "None"`
 var2=`uname -a | grep 'solaris'`
-if ["$var1" == "Red Hat"]; then
-	chmod +x Bash/Bash.sh
-	bash Bash/Bash.sh
-elif ["$var1" == "Ubuntu"]; then
-	chmod +x Bash/bash.sh
-	bash Bash/Bash.sh
-elif ["$var2" == "solaris"]; then
-	chmod +x Non-Bash/shell.sh
-	sh Non-Bash/shell.sh
+
+echo $var1 | grep -E "Red Hat|Ubuntu" > /dev/null
+
+if [ $? -eq 0 ]
+then
+	chmod +x Bash/Bash_manual.sh
+	bash Bash/Bash_manual.sh
 else
-	echo "Error"
+	chmod +x Non-Bash/Solaris/non-Bash.sh
+	bash Non-Bash/Solaris/non-Bash.sh
 fi
+
