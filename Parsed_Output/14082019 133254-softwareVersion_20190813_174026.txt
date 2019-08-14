@@ -1,0 +1,5 @@
+*****Software Version INFORMATION*****
+/etc/os-release:VERSION="8.0 (Ootpa)"
+/etc/os-release:VERSION_ID="8.0"
+/etc/os-release:REDHAT_BUGZILLA_PRODUCT_VERSION=8.0
+/etc/os-release:REDHAT_SUPPORT_PRODUCT_VERSION="8.0"

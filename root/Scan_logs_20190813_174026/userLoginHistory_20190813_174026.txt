@@ -1,0 +1,26 @@
+*****USER LOGIN INFORMATION*****
+root     tty2         0.0.0.0          Wed Jul 10 17:11    gone - no logout
+reboot   system boot  0.0.0.0          Wed Jul 10 17:10   still running
+root     tty2         0.0.0.0          Tue Jul  9 20:48 - crash  (20:22)
+reboot   system boot  0.0.0.0          Tue Jul  9 20:47   still running
+user     tty2         0.0.0.0          Mon Jun  3 18:05 - crash (36+02:42)
+reboot   system boot  0.0.0.0          Mon Jun  3 18:02   still running
+user     tty2         0.0.0.0          Fri May 31 01:16 - crash (3+16:46)
+reboot   system boot  0.0.0.0          Fri May 31 01:15   still running
+user     tty2         0.0.0.0          Thu May 30 18:37 - crash  (06:38)
+reboot   system boot  0.0.0.0          Thu May 30 18:37   still running
+user     tty2         0.0.0.0          Fri May 24 22:29 - crash (5+20:07)
+reboot   system boot  0.0.0.0          Fri May 24 22:28   still running
+user     tty2         0.0.0.0          Tue May 21 22:03 - crash (3+00:25)
+reboot   system boot  0.0.0.0          Tue May 21 22:02   still running
+user     tty2         0.0.0.0          Fri May 17 23:13 - crash (3+22:49)
+reboot   system boot  0.0.0.0          Fri May 17 23:10   still running
+root     tty2         0.0.0.0          Thu May 16 18:16 - down   (00:00)
+reboot   system boot  0.0.0.0          Thu May 16 18:15 - 18:16  (00:01)
+root     tty2         0.0.0.0          Thu May 16 18:07 - down   (00:08)
+reboot   system boot  0.0.0.0          Thu May 16 18:07 - 18:15  (00:08)
+root     tty3         0.0.0.0          Thu May 16 18:02 - down   (00:04)
+reboot   system boot  0.0.0.0          Thu May 16 17:57 - 18:06  (00:09)
+reboot   system boot  0.0.0.0          Thu May 16 17:50 - 17:57  (00:07)
+
+wtmp begins Thu May 16 17:50:05 2019

@@ -1,0 +1,22 @@
+*****List Of Recently Opened Files****
+COMMAND    PID    USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
+systemd      1    root   32u  IPv4   19406      0t0  TCP *:sunrpc (LISTEN)
+systemd      1    root   35u  IPv4   19407      0t0  UDP *:sunrpc 
+systemd      1    root   36u  IPv6   19408      0t0  TCP *:sunrpc (LISTEN)
+systemd      1    root   37u  IPv6   19409      0t0  UDP *:sunrpc 
+rpcbind    898     rpc    4u  IPv4   19406      0t0  TCP *:sunrpc (LISTEN)
+rpcbind    898     rpc    5u  IPv4   19407      0t0  UDP *:sunrpc 
+rpcbind    898     rpc    6u  IPv6   19408      0t0  TCP *:sunrpc (LISTEN)
+rpcbind    898     rpc    7u  IPv6   19409      0t0  UDP *:sunrpc 
+avahi-dae  942   avahi   15u  IPv4   28144      0t0  UDP *:mdns 
+avahi-dae  942   avahi   16u  IPv6   28145      0t0  UDP *:mdns 
+avahi-dae  942   avahi   17u  IPv4   28146      0t0  UDP *:36101 
+avahi-dae  942   avahi   18u  IPv6   28147      0t0  UDP *:39452 
+NetworkMa 1116    root    5u  IPv4 1028733      0t0  UDP rhel8:bootpc 
+cupsd     1135    root    9u  IPv6   32037      0t0  TCP localhost:ipp (LISTEN)
+cupsd     1135    root   10u  IPv4   32038      0t0  TCP localhost:ipp (LISTEN)
+sshd      1138    root    6u  IPv4   32017      0t0  TCP *:ssh (LISTEN)
+sshd      1138    root    8u  IPv6   32027      0t0  TCP *:ssh (LISTEN)
+dnsmasq   2391 dnsmasq    3u  IPv4   44196      0t0  UDP *:bootps 
+dnsmasq   2391 dnsmasq    5u  IPv4   44199      0t0  UDP rhel8:domain 
+dnsmasq   2391 dnsmasq    6u  IPv4   44200      0t0  TCP rhel8:domain (LISTEN)

@@ -1,0 +1,4 @@
+*****Disk Filesystem Information*****
+Filesystem  1K-blocks    Used    Avail Capacity  Mounted on
+/dev/da0s1a  19278748 1808500 15927952    10%    /
+devfs               1       1        0   100%    /dev

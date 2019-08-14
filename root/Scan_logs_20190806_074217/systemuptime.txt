@@ -1,0 +1,2 @@
+*****Information On System Uptime Is As Shown Below*****
+ 7:42AM  up  8:53, 1 user, load averages: 0.45, 0.25, 0.20

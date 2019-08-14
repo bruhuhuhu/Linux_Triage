@@ -1,0 +1,14 @@
+*****Information On All Processes That Are Running*****
+  PID TT  STAT    TIME COMMAND
+  806 v0  Is   0:00.01 login [pam] (login)
+  816 v0  S    0:04.22 -csh (csh)
+17243 v0  S+   0:00.00 /bin/sh ./Triage_Run.sh
+17258 v0  S+   0:00.01 sh Non-Bash/FreeBSD/freebsd.sh
+17334 v0  R+   0:00.00 ps
+  807 v1  Is+  0:00.00 /usr/libexec/getty Pc ttyv1
+  808 v2  Is+  0:00.00 /usr/libexec/getty Pc ttyv2
+  809 v3  Is+  0:00.00 /usr/libexec/getty Pc ttyv3
+  810 v4  Is+  0:00.00 /usr/libexec/getty Pc ttyv4
+  811 v5  Is+  0:00.00 /usr/libexec/getty Pc ttyv5
+  812 v6  Is+  0:00.00 /usr/libexec/getty Pc ttyv6
+  813 v7  Is+  0:00.00 /usr/libexec/getty Pc ttyv7

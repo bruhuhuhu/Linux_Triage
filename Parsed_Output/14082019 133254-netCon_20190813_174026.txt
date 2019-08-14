@@ -1,0 +1,1193 @@
+*****List Of Currently Established Network Connections*****
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 192.168.122.1:53        0.0.0.0:*               LISTEN      2391/dnsmasq        
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1138/sshd           
+tcp        0      0 127.0.0.1:631           0.0.0.0:*               LISTEN      1135/cupsd          
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      1/systemd           
+tcp6       0      0 :::22                   :::*                    LISTEN      1138/sshd           
+tcp6       0      0 ::1:631                 :::*                    LISTEN      1135/cupsd          
+tcp6       0      0 :::111                  :::*                    LISTEN      1/systemd           
+udp        0      0 192.168.122.1:53        0.0.0.0:*                           2391/dnsmasq        
+udp        0      0 0.0.0.0:67              0.0.0.0:*                           2391/dnsmasq        
+udp        0      0 10.1.3.18:68            0.0.0.0:*                           1116/NetworkManager 
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           1/systemd           
+udp        0      0 0.0.0.0:5353            0.0.0.0:*                           942/avahi-daemon: r 
+udp        0      0 0.0.0.0:36101           0.0.0.0:*                           942/avahi-daemon: r 
+udp6       0      0 :::111                  :::*                                1/systemd           
+udp6       0      0 :::5353                 :::*                                942/avahi-daemon: r 
+udp6       0      0 :::39452                :::*                                942/avahi-daemon: r 
+raw6       0      0 :::58                   :::*                    7           1116/NetworkManager 
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  2      [ ACC ]     STREAM     LISTENING     45714    2642/gnome-session-  @/tmp/.ICE-unix/2642
+unix  2      [ ACC ]     STREAM     LISTENING     33111    1413/gnome-session-  @/tmp/.ICE-unix/1413
+unix  2      [ ACC ]     STREAM     LISTENING     27311    988/sssd_nss         /var/lib/sss/pipes/nss
+unix  2      [ ACC ]     STREAM     LISTENING     27882    932/irqbalance       @irqbalance932.sock
+unix  2      [ ACC ]     STREAM     LISTENING     19438    1/systemd            @/org/kernel/linux/storage/multipathd
+unix  2      [ ACC ]     STREAM     LISTENING     35501    1805/Xwayland        /tmp/.X11-unix/X1024
+unix  2      [ ACC ]     STREAM     LISTENING     45696    1167/gdm             @/tmp/dbus-mkK3AFdE
+unix  2      [ ACC ]     STREAM     LISTENING     45836    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     28196    948/lsmd             /var/run/lsm/ipc/simc
+unix  2      [ ACC ]     STREAM     LISTENING     28198    948/lsmd             /var/run/lsm/ipc/sim
+unix  2      [ ACC ]     STREAM     LISTENING     28187    937/sssd             /var/lib/sss/pipes/private/sbus-monitor
+unix  2      [ ACC ]     STREAM     LISTENING     45837    2731/Xwayland        /tmp/.X11-unix/X0
+unix  3      [ ]         DGRAM                    2095     1/systemd            /run/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     1033347  2603/gdm-session-wo  @/tmp/dbus-epIAy3cK
+unix  2      [ ACC ]     STREAM     LISTENING     25221    976/sssd_be          /var/lib/sss/pipes/private/sbus-dp_implicit_files.976
+unix  2      [ ]         DGRAM                    2097     1/systemd            /run/systemd/cgroups-agent
+unix  2      [ ]         DGRAM                    45627    2611/systemd         /run/user/0/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     2108     1/systemd            /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     48304    2624/pulseaudio      /tmp/.esd-0/socket
+unix  2      [ ACC ]     STREAM     LISTENING     45631    2611/systemd         /run/user/0/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     38007    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  2      [ ACC ]     STREAM     LISTENING     44608    2686/gnome-shell     /run/user/0/wayland-0
+unix  8      [ ]         DGRAM                    2112     1/systemd            /run/systemd/journal/socket
+unix  23     [ ]         DGRAM                    2115     1/systemd            /run/systemd/journal/dev-log
+unix  2      [ ACC ]     STREAM     LISTENING     25157    939/mcelog           /var/run/mcelog-client
+unix  2      [ ACC ]     STREAM     LISTENING     45639    2611/systemd         /run/user/0/pipewire-0
+unix  2      [ ACC ]     STREAM     LISTENING     31216    1167/gdm             @/tmp/dbus-uQrdVg5R
+unix  2      [ ACC ]     STREAM     LISTENING     26183    947/gssproxy         /run/gssproxy.sock
+unix  2      [ ACC ]     STREAM     LISTENING     45641    2611/systemd         /run/user/0/bus
+unix  2      [ ACC ]     STREAM     LISTENING     25829    1/systemd            @ISCSID_UIP_ABSTRACT_NAMESPACE
+unix  2      [ ACC ]     STREAM     LISTENING     45643    2611/systemd         /run/user/0/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     45695    1167/gdm             @/tmp/dbus-rLhgsvAQ
+unix  2      [ ACC ]     STREAM     LISTENING     44629    2757/ibus-daemon     @/tmp/dbus-DFVIWmqo
+unix  2      [ ACC ]     STREAM     LISTENING     31217    1167/gdm             @/tmp/dbus-iK4xMu7s
+unix  2      [ ACC ]     STREAM     LISTENING     47725    2629/gnome-keyring-  /run/user/0/keyring/pkcs11
+unix  2      [ ACC ]     STREAM     LISTENING     26182    947/gssproxy         /var/lib/gssproxy/default.sock
+unix  2      [ ACC ]     STREAM     LISTENING     47729    2629/gnome-keyring-  /run/user/0/keyring/ssh
+unix  2      [ ACC ]     STREAM     LISTENING     759648   2603/gdm-session-wo  @/tmp/dbus-rGQqVAwa
+unix  2      [ ACC ]     STREAM     LISTENING     32378    1139/libvirtd        /var/run/libvirt/libvirt-sock
+unix  2      [ ACC ]     STREAM     LISTENING     32380    1139/libvirtd        /var/run/libvirt/libvirt-sock-ro
+unix  2      [ ACC ]     STREAM     LISTENING     32382    1139/libvirtd        /var/run/libvirt/libvirt-admin-sock
+unix  2      [ ACC ]     STREAM     LISTENING     759647   2603/gdm-session-wo  @/tmp/dbus-LTnkHfev
+unix  2      [ ACC ]     STREAM     LISTENING     690865   2603/gdm-session-wo  @/tmp/dbus-7o7FOmnM
+unix  2      [ ACC ]     STREAM     LISTENING     31220    1167/gdm             @/tmp/dbus-0ouq51Na
+unix  2      [ ACC ]     STREAM     LISTENING     759330   2603/gdm-session-wo  @/tmp/dbus-Pe8Q76rr
+unix  2      [ ACC ]     STREAM     LISTENING     1033348  2603/gdm-session-wo  @/tmp/dbus-b8Pp7iim
+unix  2      [ ACC ]     STREAM     LISTENING     32927    1236/systemd         /run/user/42/pipewire-0
+unix  2      [ ACC ]     STREAM     LISTENING     32929    1236/systemd         /run/user/42/pulse/native
+unix  2      [ ACC ]     STREAM     LISTENING     32932    1236/systemd         /run/user/42/bus
+unix  2      [ ACC ]     STREAM     LISTENING     33112    1413/gnome-session-  /tmp/.ICE-unix/1413
+unix  2      [ ACC ]     STREAM     LISTENING     45715    2642/gnome-session-  /tmp/.ICE-unix/2642
+unix  2      [ ACC ]     STREAM     LISTENING     560177   2603/gdm-session-wo  @/tmp/dbus-MOFXmJBw
+unix  2      [ ACC ]     STREAM     LISTENING     19381    1/systemd            /run/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     31219    1167/gdm             @/tmp/dbus-H7Gs3hud
+unix  2      [ ACC ]     STREAM     LISTENING     690864   2603/gdm-session-wo  @/tmp/dbus-vpwySlSF
+unix  2      [ ACC ]     STREAM     LISTENING     25816    1/systemd            @ISCSIADM_ABSTRACT_NAMESPACE
+unix  2      [ ACC ]     STREAM     LISTENING     19392    1/systemd            /run/lvm/lvmpolld.socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     19397    1/systemd            /run/udev/control
+unix  2      [ ]         DGRAM                    30406    1236/systemd         /run/user/42/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     30410    1236/systemd         /run/user/42/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     19404    1/systemd            /run/rpcbind.sock
+unix  2      [ ACC ]     STREAM     LISTENING     35500    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  2      [ ACC ]     STREAM     LISTENING     25813    1/systemd            /var/run/cups/cups.sock
+unix  2      [ ACC ]     STREAM     LISTENING     41173    2152/ibus-daemon     @/tmp/dbus-6Ev9WB4S
+unix  2      [ ACC ]     STREAM     LISTENING     34778    1488/gnome-shell     /run/user/42/wayland-0
+unix  2      [ ACC ]     STREAM     LISTENING     25817    1/systemd            /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     25821    1/systemd            /var/run/libvirt/virtlockd-sock
+unix  2      [ ACC ]     STREAM     LISTENING     560176   2603/gdm-session-wo  @/tmp/dbus-ogrMxolw
+unix  2      [ ACC ]     SEQPACKET  LISTENING     19424    1/systemd            /run/systemd/coredump
+unix  2      [ ACC ]     STREAM     LISTENING     25825    1/systemd            /run/avahi-daemon/socket
+unix  2      [ ACC ]     STREAM     LISTENING     25830    1/systemd            /var/run/.heim_org.h5l.kcm-socket
+unix  2      [ ACC ]     STREAM     LISTENING     25833    1/systemd            /var/run/libvirt/virtlogd-sock
+unix  2      [ ACC ]     STREAM     LISTENING     25836    1/systemd            /var/run/spice-vdagentd/spice-vdagent-sock
+unix  2      [ ACC ]     STREAM     LISTENING     44526    2629/gnome-keyring-  /run/user/0/keyring/control
+unix  2      [ ACC ]     STREAM     LISTENING     759329   2603/gdm-session-wo  @/tmp/dbus-qUe24YGB
+unix  2      [ ACC ]     STREAM     LISTENING     44614    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     29530    1167/gdm             @/tmp/dbus-H7Gs3hud
+unix  3      [ ]         STREAM     CONNECTED     1017142  8944/gvfsd-trash     @/dbus-vfs-daemon/socket-ayu3D8uE
+unix  2      [ ]         STREAM     CONNECTED     197254   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49371    2885/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     48044    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48657    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     45450    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     32472    1337/gdm-wayland-se  
+unix  3      [ ]         STREAM     CONNECTED     51449    2852/gsd-xsettings   
+unix  2      [ ]         DGRAM                    43688    2289/boltd           
+unix  3      [ ]         STREAM     CONNECTED     50256    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50178    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     47982    2745/at-spi2-regist  
+unix  3      [ ]         STREAM     CONNECTED     47154    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     28129    962/avahi-daemon: c  
+unix  2      [ ]         STREAM     CONNECTED     884307   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     40648    2355/gsd-smartcard   
+unix  3      [ ]         STREAM     CONNECTED     40606    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     42731    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     759654   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     52451    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     44611    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     41896    2307/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     39066    999/platform-python  
+unix  2      [ ]         STREAM     CONNECTED     538349   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     48653    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     47947    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     40613    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     49318    2871/gsd-a11y-setti  
+unix  3      [ ]         STREAM     CONNECTED     52241    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50189    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44643    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44632    2768/ibus-portal     
+unix  3      [ ]         STREAM     CONNECTED     28211    937/sssd             /var/lib/sss/pipes/private/sbus-monitor
+unix  3      [ ]         STREAM     CONNECTED     44690    2801/gvfs-udisks2-v  
+unix  3      [ ]         STREAM     CONNECTED     32469    1337/gdm-wayland-se  
+unix  2      [ ]         STREAM     CONNECTED     48758    2786/evolution-sour  
+unix  3      [ ]         STREAM     CONNECTED     33528    1330/pulseaudio      
+unix  3      [ ]         STREAM     CONNECTED     25883    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50428    2876/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     48068    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48363    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     45441    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     42124    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     52418    2624/pulseaudio      /run/user/0/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     52299    2835/gsd-power       
+unix  2      [ ]         DGRAM                    52463    2876/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     46020    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     47990    2624/pulseaudio      /run/user/0/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     41267    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     25950    935/dbus-daemon      
+unix  2      [ ]         STREAM     CONNECTED     906136   2686/gnome-shell     
+unix  2      [ ]         DGRAM                    50177    2819/goa-identity-s  
+unix  3      [ ]         STREAM     CONNECTED     48301    2629/gnome-keyring-  
+unix  3      [ ]         STREAM     CONNECTED     45434    2152/ibus-daemon     @/tmp/dbus-6Ev9WB4S
+unix  3      [ ]         STREAM     CONNECTED     42866    1372/dbus-daemon     /run/user/42/bus
+unix  2      [ ]         STREAM     CONNECTED     656745   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49330    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     49304    2885/gsd-media-keys  
+unix  2      [ ]         STREAM     CONNECTED     49476    2835/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     42808    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    30748    1116/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTED     51424    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     49362    2885/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     47981    2745/at-spi2-regist  
+unix  3      [ ]         STREAM     CONNECTED     45754    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45435    2318/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     34958    1136/platform-pytho  
+unix  2      [ ]         STREAM     CONNECTED     1017125  2731/Xwayland        
+unix  3      [ ]         STREAM     CONNECTED     52315    2876/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     32690    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     32516    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     25856    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45993    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     45840    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     33106    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     53542    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48328    2639/gdm-wayland-se  
+unix  3      [ ]         STREAM     CONNECTED     31413    1330/pulseaudio      
+unix  3      [ ]         STREAM     CONNECTED     31057    1167/gdm             
+unix  3      [ ]         STREAM     CONNECTED     49359    2852/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     51252    2856/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     50221    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44777    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48054    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     37441    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     28596    1139/libvirtd        
+unix  2      [ ]         STREAM     CONNECTED     792351   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     44303    2164/ibus-x11        
+unix  3      [ ]         STREAM     CONNECTED     45108    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     33102    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     990857   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     706945   30439/bash           
+unix  3      [ ]         STREAM     CONNECTED     693269   27167/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     52450    3016/gsd-disk-utili  
+unix  2      [ ]         DGRAM                    49468    2642/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     33825    1584/upowerd         
+unix  3      [ ]         STREAM     CONNECTED     1033351  2603/gdm-session-wo  @/tmp/dbus-b8Pp7iim
+unix  3      [ ]         STREAM     CONNECTED     690869   2603/gdm-session-wo  @/tmp/dbus-7o7FOmnM
+unix  3      [ ]         STREAM     CONNECTED     562274   11866/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     49851    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     49461    2986/tracker-miner-  
+unix  2      [ ]         STREAM     CONNECTED     50547    2920/evolution-addr  
+unix  3      [ ]         STREAM     CONNECTED     45416    2313/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     43855    2309/gsd-a11y-setti  
+unix  2      [ ]         STREAM     CONNECTED     518280   8798/vmhgfs-fuse     
+unix  3      [ ]         STREAM     CONNECTED     52267    2931/ibus-engine-si  
+unix  3      [ ]         STREAM     CONNECTED     50215    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48059    2792/goa-daemon      
+unix  3      [ ]         STREAM     CONNECTED     46735    2329/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     38017    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     52242    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     34817    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     27879    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     52257    2918/dconf-service   
+unix  3      [ ]         STREAM     CONNECTED     50458    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50435    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     44786    2820/gvfs-goa-volum  
+unix  3      [ ]         DGRAM                    2099     1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     516651   2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     511731   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     52453    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     49283    2624/pulseaudio      
+unix  2      [ ]         STREAM     CONNECTED     48050    2801/gvfs-udisks2-v  
+unix  3      [ ]         STREAM     CONNECTED     40614    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     772429   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     761002   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     516301   900/auditd           
+unix  3      [ ]         STREAM     CONNECTED     51342    2872/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     39037    1883/at-spi2-regist  
+unix  3      [ ]         STREAM     CONNECTED     28106    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     41984    2329/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     40527    2318/gsd-color       
+unix  2      [ ]         DGRAM                    18206    786/systemd-udevd    
+unix  2      [ ]         STREAM     CONNECTED     983617   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     738223   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51453    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     44311    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     42892    2355/gsd-smartcard   
+unix  3      [ ]         STREAM     CONNECTED     41983    2329/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     27420    1031/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTED     911413   2603/gdm-session-wo  @/tmp/dbus-Q1YMyWYD
+unix  3      [ ]         STREAM     CONNECTED     49865    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     49486    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     49338    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     45675    2611/systemd         
+unix  3      [ ]         STREAM     CONNECTED     42686    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     39067    999/platform-python  
+unix  3      [ ]         STREAM     CONNECTED     34785    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     33803    1488/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     31880    1135/cupsd           
+unix  3      [ ]         STREAM     CONNECTED     1016286  2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     52249    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50230    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48959    2792/goa-daemon      
+unix  3      [ ]         STREAM     CONNECTED     45830    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     25233    988/sssd_nss         
+unix  3      [ ]         STREAM     CONNECTED     48994    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48339    2642/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     37360    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     46001    2762/ibus-extension  
+unix  3      [ ]         STREAM     CONNECTED     51454    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     41187    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     51458    2766/ibus-x11        
+unix  3      [ ]         STREAM     CONNECTED     51457    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     47991    2786/evolution-sour  
+unix  3      [ ]         STREAM     CONNECTED     45672    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     33826    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     32075    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47754    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     47156    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  2      [ ]         STREAM     CONNECTED     58199    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     45689    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     41950    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     759372   2603/gdm-session-wo  @/tmp/dbus-qUe24YGB
+unix  3      [ ]         STREAM     CONNECTED     49951    3101/gnome-terminal  
+unix  3      [ ]         STREAM     CONNECTED     49253    2878/gsd-datetime    
+unix  3      [ ]         STREAM     CONNECTED     44312    2307/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     27024    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     513944   2603/gdm-session-wo  @/tmp/dbus-Kpfeyc25
+unix  3      [ ]         STREAM     CONNECTED     50594    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     44778    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44634    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     43915    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1015627  66401/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     50399    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51228    2849/gsd-sound       
+unix  3      [ ]         STREAM     CONNECTED     48061    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    27965    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     45845    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     35266    1136/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     29796    1116/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTED     28105    935/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     762954   41570/gdm-session-w  
+unix  2      [ ]         STREAM     CONNECTED     691488   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50483    2889/gsd-mouse       
+unix  2      [ ]         STREAM     CONNECTED     47971    2742/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     47749    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     45440    2333/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     41962    2318/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     32278    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     49357    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     50293    2847/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     42783    2319/gsd-datetime    
+unix  3      [ ]         STREAM     CONNECTED     49280    2882/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     50296    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     30432    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     49335    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     51409    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    48946    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     40584    2333/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     759373   2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     51595    2762/ibus-extension  
+unix  3      [ ]         STREAM     CONNECTED     40653    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     512625   2603/gdm-session-wo  @/tmp/dbus-5lnPXMcM
+unix  3      [ ]         STREAM     CONNECTED     52511    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50292    2861/evolution-cale  
+unix  3      [ ]         STREAM     CONNECTED     42811    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     52320    2766/ibus-x11        
+unix  3      [ ]         STREAM     CONNECTED     48753    2633/dbus-daemon     /run/user/0/bus
+unix  2      [ ]         DGRAM                    25220    976/sssd_be          
+unix  3      [ ]         STREAM     CONNECTED     50488    2878/gsd-datetime    
+unix  3      [ ]         STREAM     CONNECTED     50187    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48993    2820/gvfs-goa-volum  
+unix  3      [ ]         STREAM     CONNECTED     44627    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     45083    2361/gsd-sound       
+unix  3      [ ]         STREAM     CONNECTED     52318    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     46000    2762/ibus-extension  
+unix  2      [ ]         STREAM     CONNECTED     33001    1389/vmtoolsd        
+unix  3      [ ]         STREAM     CONNECTED     1032287  2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     47985    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     41956    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     41947    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50676    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     48675    2761/ibus-dconf      
+unix  3      [ ]         STREAM     CONNECTED     47951    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     30950    1136/platform-pytho  
+unix  2      [ ]         STREAM     CONNECTED     1026701  936/polkitd          
+unix  2      [ ]         STREAM     CONNECTED     560929   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51583    3016/gsd-disk-utili  
+unix  3      [ ]         STREAM     CONNECTED     52234    2872/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     49218    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     42830    2331/gsd-mouse       
+unix  3      [ ]         STREAM     CONNECTED     38981    1869/at-spi-bus-lau  
+unix  3      [ ]         STREAM     CONNECTED     49377    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     50457    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    45629    2611/systemd         
+unix  3      [ ]         STREAM     CONNECTED     40534    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     1025741  1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45061    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28053    948/lsmd             
+unix  3      [ ]         STREAM     CONNECTED     26107    942/avahi-daemon: r  
+unix  3      [ ]         STREAM     CONNECTED     27003    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     758331   41466/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     690871   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     562273   11866/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     52425    2994/tracker-store   
+unix  3      [ ]         STREAM     CONNECTED     47752    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     44013    2355/gsd-smartcard   
+unix  3      [ ]         STREAM     CONNECTED     43929    2329/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     51253    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     40070    2161/ibus-dconf      
+unix  3      [ ]         STREAM     CONNECTED     27878    940/udisksd          
+unix  2      [ ]         STREAM     CONNECTED     1025794  67132/packagekitd    
+unix  3      [ ]         STREAM     CONNECTED     49429    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     46005    2762/ibus-extension  
+unix  3      [ ]         STREAM     CONNECTED     39036    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     25356    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     558466   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51341    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     44770    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48950    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     48710    2774/xdg-permission  
+unix  3      [ ]         STREAM     CONNECTED     45422    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     425242   2603/gdm-session-wo  @/tmp/dbus-oMGyTM8F
+unix  2      [ ]         DGRAM                    32906    1236/systemd         
+unix  3      [ ]         STREAM     CONNECTED     29528    1211/gdm-session-wo  
+unix  2      [ ]         DGRAM                    25232    988/sssd_nss         
+unix  3      [ ]         STREAM     CONNECTED     795267   2603/gdm-session-wo  @/tmp/dbus-XYvOBdFs
+unix  2      [ ]         STREAM     CONNECTED     52415    3000/vmtoolsd        
+unix  2      [ ]         STREAM     CONNECTED     49369    2885/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     29970    1167/gdm             
+unix  3      [ ]         STREAM     CONNECTED     28094    940/udisksd          
+unix  3      [ ]         STREAM     CONNECTED     52419    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     52286    2940/gsd-printer     
+unix  3      [ ]         STREAM     CONNECTED     40533    2319/gsd-datetime    
+unix  2      [ ]         STREAM     CONNECTED     761717   41466/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     49329    2904/evolution-cale  
+unix  2      [ ]         DGRAM                    52239    2642/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     49223    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50655    3088/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     51592    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     45991    2768/ibus-portal     
+unix  3      [ ]         STREAM     CONNECTED     48673    2761/ibus-dconf      
+unix  3      [ ]         STREAM     CONNECTED     42844    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     40068    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     50448    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44652    2792/goa-daemon      
+unix  2      [ ]         DGRAM                    44220    2391/dnsmasq         
+unix  3      [ ]         STREAM     CONNECTED     28172    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     759956   1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     32390    1139/libvirtd        
+unix  3      [ ]         STREAM     CONNECTED     51229    2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     47060    2603/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     31469    1372/dbus-daemon     
+unix  2      [ ]         DGRAM                    28185    935/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     24537    932/irqbalance       
+unix  3      [ ]         STREAM     CONNECTED     44729    2805/gvfs-mtp-volum  
+unix  2      [ ]         DGRAM                    42713    2300/wpa_supplicant  
+unix  3      [ ]         STREAM     CONNECTED     32470    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51445    2882/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     52293    2872/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     42133    2152/ibus-daemon     @/tmp/dbus-6Ev9WB4S
+unix  3      [ ]         STREAM     CONNECTED     33117    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27002    937/sssd             
+unix  3      [ ]         STREAM     CONNECTED     762953   41570/gdm-session-w  
+unix  2      [ ]         STREAM     CONNECTED     551793   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49471    2993/gnome-software  
+unix  2      [ ]         STREAM     CONNECTED     45951    2757/ibus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     42125    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51590    2993/gnome-software  
+unix  3      [ ]         STREAM     CONNECTED     50294    2860/gsd-smartcard   
+unix  3      [ ]         STREAM     CONNECTED     45971    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     45446    2333/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     40481    1413/gnome-session-  @/tmp/.ICE-unix/1413
+unix  2      [ ]         STREAM     CONNECTED     29952    1165/atd             
+unix  3      [ ]         STREAM     CONNECTED     27968    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     844124   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     315820   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     52304    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     49328    2904/evolution-cale  
+unix  3      [ ]         STREAM     CONNECTED     51376    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48711    2774/xdg-permission  
+unix  3      [ ]         STREAM     CONNECTED     39038    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     28133    942/avahi-daemon: r  
+unix  3      [ ]         STREAM     CONNECTED     1032274  67285/sssd_kcm       
+unix  3      [ ]         STREAM     CONNECTED     1017074  1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44302    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     43989    2348/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     50677    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     53657    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     44485    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     26188    949/rtkit-daemon     
+unix  2      [ ]         STREAM     CONNECTED     424888   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51205    2843/gsd-screensave  
+unix  3      [ ]         STREAM     CONNECTED     45880    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     40041    2161/ibus-dconf      
+unix  3      [ ]         STREAM     CONNECTED     35267    1136/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     1025760  935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     52319    2852/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     50551    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     28104    935/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     28058    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     681816   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49364    2885/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     44425    1167/gdm             @/tmp/dbus-iK4xMu7s
+unix  3      [ ]         STREAM     CONNECTED     38958    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     27560    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     52568    2686/gnome-shell     /run/user/0/wayland-0
+unix  3      [ ]         STREAM     CONNECTED     52510    3003/tracker-miner-  
+unix  3      [ ]         STREAM     CONNECTED     49279    2882/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     47998    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27975    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     42763    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     27811    939/mcelog           
+unix  2      [ ]         STREAM     CONNECTED     884839   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51440    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     52261    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     49321    2861/evolution-cale  
+unix  3      [ ]         STREAM     CONNECTED     51251    2856/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     48947    2782/gnome-shell-ca  
+unix  3      [ ]         STREAM     CONNECTED     45084    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     51582    3016/gsd-disk-utili  
+unix  3      [ ]         STREAM     CONNECTED     44054    2338/gsd-rfkill      
+unix  3      [ ]         STREAM     CONNECTED     42865    2335/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     43916    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     42714    2300/wpa_supplicant  
+unix  3      [ ]         STREAM     CONNECTED     30959    1116/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTED     28491    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51532    3000/vmtoolsd        
+unix  3      [ ]         STREAM     CONNECTED     52300    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     44132    2362/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     33804    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     517509   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45438    2318/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     40063    2171/ibus-portal     
+unix  3      [ ]         STREAM     CONNECTED     52237    2889/gsd-mouse       
+unix  3      [ ]         STREAM     CONNECTED     25222    976/sssd_be          
+unix  3      [ ]         STREAM     CONNECTED     50438    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50430    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50295    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48674    2766/ibus-x11        
+unix  3      [ ]         STREAM     CONNECTED     41695    1330/pulseaudio      /run/user/42/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     53656    3101/gnome-terminal  
+unix  2      [ ]         DGRAM                    46027    2792/goa-daemon      
+unix  3      [ ]         STREAM     CONNECTED     48639    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     759657   2603/gdm-session-wo  @/tmp/dbus-LTnkHfev
+unix  2      [ ]         STREAM     CONNECTED     561981   12442/bash           
+unix  3      [ ]         STREAM     CONNECTED     28599    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    1032276  67285/sssd_kcm       
+unix  3      [ ]         STREAM     CONNECTED     52431    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45058    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     42784    2319/gsd-datetime    
+unix  3      [ ]         STREAM     CONNECTED     43219    2200/xdg-permission  
+unix  3      [ ]         STREAM     CONNECTED     25011    929/bluetoothd       
+unix  2      [ ]         STREAM     CONNECTED     706685   30122/bash           
+unix  3      [ ]         STREAM     CONNECTED     45042    2757/ibus-daemon     @/tmp/dbus-DFVIWmqo
+unix  3      [ ]         STREAM     CONNECTED     48110    2838/gsd-rfkill      
+unix  3      [ ]         STREAM     CONNECTED     46033    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     44640    2768/ibus-portal     
+unix  3      [ ]         STREAM     CONNECTED     45895    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     43914    2324/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     44111    2361/gsd-sound       
+unix  3      [ ]         STREAM     CONNECTED     42837    2331/gsd-mouse       
+unix  2      [ ]         DGRAM                    27015    929/bluetoothd       
+unix  3      [ ]         STREAM     CONNECTED     46003    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     47663    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     32473    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1017085  2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     759370   41466/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     49953    3101/gnome-terminal  
+unix  3      [ ]         STREAM     CONNECTED     45041    2852/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     50188    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44310    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     45576    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45436    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     759333   2603/gdm-session-wo  @/tmp/dbus-Pe8Q76rr
+unix  3      [ ]         STREAM     CONNECTED     51340    2624/pulseaudio      
+unix  3      [ ]         STREAM     CONNECTED     45839    2731/Xwayland        
+unix  3      [ ]         STREAM     CONNECTED     44333    2329/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     28236    976/sssd_be          /var/lib/sss/pipes/private/sbus-dp_implicit_files.976
+unix  3      [ ]         STREAM     CONNECTED     52316    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     51375    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     47750    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     37494    1330/pulseaudio      /run/user/42/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     52317    2766/ibus-x11        
+unix  3      [ ]         STREAM     CONNECTED     51423    2836/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     50226    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     40661    2309/gsd-a11y-setti  
+unix  3      [ ]         STREAM     CONNECTED     52246    2878/gsd-datetime    
+unix  2      [ ]         STREAM     CONNECTED     49311    2836/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     50225    2852/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     42885    2344/gsd-screensave  
+unix  3      [ ]         STREAM     CONNECTED     38980    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     518527   8944/gvfsd-trash     
+unix  3      [ ]         STREAM     CONNECTED     52343    2986/tracker-miner-  
+unix  3      [ ]         STREAM     CONNECTED     48105    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     41898    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27442    1031/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTED     28266    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1031182  1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     43923    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     1018092  66401/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     51225    2847/gsd-sharing     
+unix  2      [ ]         STREAM     CONNECTED     742380   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     44774    2819/goa-identity-s  
+unix  3      [ ]         STREAM     CONNECTED     47983    2745/at-spi2-regist  
+unix  3      [ ]         STREAM     CONNECTED     47724    2629/gnome-keyring-  
+unix  3      [ ]         STREAM     CONNECTED     40071    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    52253    2847/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     52243    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     47490    2611/systemd         
+unix  2      [ ]         STREAM     CONNECTED     47208    2488/colord          
+unix  3      [ ]         STREAM     CONNECTED     42134    2171/ibus-portal     
+unix  2      [ ]         DGRAM                    27005    934/systemd-machine  
+unix  3      [ ]         STREAM     CONNECTED     759658   935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     694903   2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     561219   11866/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     47316    2603/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     46937    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     47158    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     44087    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     39043    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     23835    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     50593    3048/gconfd-2        
+unix  3      [ ]         STREAM     CONNECTED     51588    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48327    2639/gdm-wayland-se  
+unix  3      [ ]         STREAM     CONNECTED     40451    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     693270   27167/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     50220    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51226    2847/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     45452    2488/colord          
+unix  3      [ ]         DGRAM                    30409    1236/systemd         
+unix  3      [ ]         DGRAM                    27964    1/systemd            
+unix  2      [ ]         STREAM     CONNECTED     765010   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     53464    3069/fwupd           
+unix  3      [ ]         STREAM     CONNECTED     52287    2936/evolution-addr  
+unix  3      [ ]         STREAM     CONNECTED     31471    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     28189    937/sssd             
+unix  3      [ ]         STREAM     CONNECTED     28128    942/avahi-daemon: r  
+unix  3      [ ]         STREAM     CONNECTED     44131    2362/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     40615    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    2100     1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     690874   2603/gdm-session-wo  @/tmp/dbus-vpwySlSF
+unix  3      [ ]         STREAM     CONNECTED     50482    2889/gsd-mouse       
+unix  3      [ ]         STREAM     CONNECTED     44555    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     40076    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     760812   2603/gdm-session-wo  @/tmp/dbus-rGQqVAwa
+unix  3      [ ]         STREAM     CONNECTED     51533    3000/vmtoolsd        
+unix  3      [ ]         STREAM     CONNECTED     51456    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50254    2860/gsd-smartcard   
+unix  3      [ ]         STREAM     CONNECTED     25861    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     45838    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     42132    2171/ibus-portal     
+unix  3      [ ]         STREAM     CONNECTED     27011    934/systemd-machine  
+unix  3      [ ]         STREAM     CONNECTED     42894    2361/gsd-sound       
+unix  3      [ ]         STREAM     CONNECTED     32962    1236/systemd         
+unix  3      [ ]         STREAM     CONNECTED     27093    946/ModemManager     
+unix  3      [ ]         STREAM     CONNECTED     24369    902/sedispatch       
+unix  2      [ ]         DGRAM                    52614    1943/rsyslogd        
+unix  3      [ ]         STREAM     CONNECTED     42840    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1017120  935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     51591    2762/ibus-extension  
+unix  3      [ ]         STREAM     CONNECTED     51347    2876/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     46009    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     42838    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     28171    946/ModemManager     
+unix  3      [ ]         STREAM     CONNECTED     25951    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     762955   2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     52470    2993/gnome-software  
+unix  3      [ ]         STREAM     CONNECTED     36250    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     32224    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    27278    936/polkitd          
+unix  2      [ ]         DGRAM                    28186    937/sssd             
+unix  3      [ ]         STREAM     CONNECTED     26862    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     52314    2876/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     51380    2860/gsd-smartcard   
+unix  3      [ ]         STREAM     CONNECTED     561214   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     40645    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     30608    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50395    2871/gsd-a11y-setti  
+unix  3      [ ]         STREAM     CONNECTED     45040    2852/gsd-xsettings   
+unix  2      [ ]         STREAM     CONNECTED     697951   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50627    3000/vmtoolsd        
+unix  3      [ ]         STREAM     CONNECTED     50626    3069/fwupd           
+unix  3      [ ]         STREAM     CONNECTED     50459    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47662    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     52290    2882/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     45423    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     42786    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     43823    2300/wpa_supplicant  
+unix  3      [ ]         STREAM     CONNECTED     32846    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     49949    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     50589    3048/gconfd-2        
+unix  3      [ ]         STREAM     CONNECTED     45442    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     30587    1413/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     32457    902/sedispatch       
+unix  3      [ ]         STREAM     CONNECTED     1015638  66401/nautilus       
+unix  2      [ ]         STREAM     CONNECTED     72588    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     52248    2889/gsd-mouse       
+unix  3      [ ]         STREAM     CONNECTED     51369    2881/gsd-housekeepi  
+unix  2      [ ]         STREAM     CONNECTED     44203    2391/dnsmasq         
+unix  3      [ ]         STREAM     CONNECTED     32477    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     51413    2904/evolution-cale  
+unix  3      [ ]         STREAM     CONNECTED     50437    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     49213    2838/gsd-rfkill      
+unix  3      [ ]         STREAM     CONNECTED     44787    2819/goa-identity-s  
+unix  2      [ ]         STREAM     CONNECTED     30417    1326/vmware-vmblock  
+unix  3      [ ]         STREAM     CONNECTED     561215   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     49467    3003/tracker-miner-  
+unix  3      [ ]         STREAM     CONNECTED     50549    2686/gnome-shell     /run/user/0/wayland-0
+unix  3      [ ]         STREAM     CONNECTED     45443    2318/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     32993    1372/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     40505    2313/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     51509    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     52265    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     50390    2871/gsd-a11y-setti  
+unix  3      [ ]         STREAM     CONNECTED     48095    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48996    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     44626    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  2      [ ]         DGRAM                    46936    2488/colord          
+unix  3      [ ]         STREAM     CONNECTED     761712   41466/gdm-session-w  
+unix  2      [ ]         DGRAM                    45615    2611/systemd         
+unix  3      [ ]         STREAM     CONNECTED     46935    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     759371   41466/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     52305    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     42891    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     29705    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     25153    943/rngd             
+unix  3      [ ]         STREAM     CONNECTED     49331    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51401    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     48340    2642/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     44053    2338/gsd-rfkill      
+unix  3      [ ]         STREAM     CONNECTED     43913    2324/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     511720   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49352    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     51368    2881/gsd-housekeepi  
+unix  3      [ ]         STREAM     CONNECTED     44610    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     43220    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     518495   8934/gvfsd-metadata  
+unix  3      [ ]         STREAM     CONNECTED     41946    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     721958   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51586    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     45762    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     45702    2642/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     47284    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     41925    2309/gsd-a11y-setti  
+unix  2      [ ]         STREAM     CONNECTED     38005    1877/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     51557    3003/tracker-miner-  
+unix  3      [ ]         STREAM     CONNECTED     49356    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     50391    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47055    1167/gdm             @/tmp/dbus-uQrdVg5R
+unix  3      [ ]         STREAM     CONNECTED     47155    1877/dbus-daemon     @/tmp/dbus-W0IQ5eYZbD
+unix  3      [ ]         STREAM     CONNECTED     42864    2335/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     28488    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     66663    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51254    2856/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     48678    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     48302    2624/pulseaudio      
+unix  3      [ ]         STREAM     CONNECTED     24789    898/rpcbind          
+unix  3      [ ]         STREAM     CONNECTED     51559    2885/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     50449    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44633    2757/ibus-daemon     @/tmp/dbus-DFVIWmqo
+unix  3      [ ]         STREAM     CONNECTED     45887    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  2      [ ]         DGRAM                    38959    1372/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     28190    937/sssd             /var/lib/sss/pipes/private/sbus-monitor
+unix  3      [ ]         STREAM     CONNECTED     47187    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     28085    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     844783   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     463578   2686/gnome-shell     
+unix  2      [ ]         DGRAM                    49343    1135/cupsd           
+unix  2      [ ]         DGRAM                    44160    1413/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     31424    1337/gdm-wayland-se  
+unix  3      [ ]         STREAM     CONNECTED     793565   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     539693   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51508    2986/tracker-miner-  
+unix  3      [ ]         STREAM     CONNECTED     51452    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     48094    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     43830    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     51419    2757/ibus-daemon     @/tmp/dbus-DFVIWmqo
+unix  3      [ ]         STREAM     CONNECTED     49337    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48069    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     42895    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     29527    1211/gdm-session-wo  
+unix  2      [ ]         STREAM     CONNECTED     29934    1138/sshd            
+unix  3      [ ]         STREAM     CONNECTED     1017075  1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44762    2809/gvfs-gphoto2-v  
+unix  3      [ ]         STREAM     CONNECTED     41957    2152/ibus-daemon     @/tmp/dbus-6Ev9WB4S
+unix  3      [ ]         STREAM     CONNECTED     40483    2307/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     50641    3088/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     52420    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     49360    2835/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     44542    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     45686    2633/dbus-daemon     
+unix  2      [ ]         STREAM     CONNECTED     734626   38295/nano           
+unix  3      [ ]         STREAM     CONNECTED     423369   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51372    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     48634    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     42832    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45633    2611/systemd         
+unix  2      [ ]         STREAM     CONNECTED     759478   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     40582    2333/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     43683    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     30392    1139/libvirtd        
+unix  3      [ ]         STREAM     CONNECTED     28720    972/bash             
+unix  3      [ ]         STREAM     CONNECTED     50524    2920/evolution-addr  
+unix  3      [ ]         STREAM     CONNECTED     43886    2320/gsd-housekeepi  
+unix  3      [ ]         STREAM     CONNECTED     40064    2171/ibus-portal     
+unix  3      [ ]         STREAM     CONNECTED     52291    2872/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     50427    2876/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     48065    2827/gvfs-afc-volum  
+unix  3      [ ]         STREAM     CONNECTED     46007    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45419    2324/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     48956    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     35503    1805/Xwayland        
+unix  3      [ ]         STREAM     CONNECTED     51446    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50485    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47686    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47111    2152/ibus-daemon     @/tmp/dbus-6Ev9WB4S
+unix  3      [ ]         STREAM     CONNECTED     25223    976/sssd_be          /var/lib/sss/pipes/private/sbus-dp_implicit_files.976
+unix  3      [ ]         STREAM     CONNECTED     28051    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    24371    900/auditd           
+unix  3      [ ]         STREAM     CONNECTED     46076    2835/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     48954    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47188    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     28109    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     25851    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    23198    786/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     691624   27167/gdm-session-w  
+unix  2      [ ]         STREAM     CONNECTED     592424   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     33529    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     30749    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     1031941  1030/accounts-daemo  
+unix  3      [ ]         STREAM     CONNECTED     50255    2860/gsd-smartcard   
+unix  3      [ ]         STREAM     CONNECTED     44694    2633/dbus-daemon     /run/user/0/bus
+unix  2      [ ]         STREAM     CONNECTED     47494    2618/(sd-pam)        
+unix  3      [ ]         STREAM     CONNECTED     28453    999/platform-python  
+unix  2      [ ]         DGRAM                    25160    940/udisksd          
+unix  3      [ ]         STREAM     CONNECTED     51407    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48109    2836/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     44012    2355/gsd-smartcard   
+unix  3      [ ]         DGRAM                    30408    1236/systemd         
+unix  3      [ ]         STREAM     CONNECTED     52309    2856/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     44313    2329/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     40583    2333/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     27319    988/sssd_nss         
+unix  3      [ ]         STREAM     CONNECTED     560180   11866/gdm-session-w  
+unix  2      [ ]         STREAM     CONNECTED     59620    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     43854    2309/gsd-a11y-setti  
+unix  2      [ ]         DGRAM                    49525    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51227    2847/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     45020    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49358    2940/gsd-printer     
+unix  3      [ ]         STREAM     CONNECTED     48716    2782/gnome-shell-ca  
+unix  3      [ ]         STREAM     CONNECTED     44593    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45669    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     46078    2835/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     44321    1372/dbus-daemon     /run/user/42/bus
+unix  2      [ ]         STREAM     CONNECTED     35504    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     27675    934/systemd-machine  
+unix  3      [ ]         STREAM     CONNECTED     690870   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51204    2843/gsd-screensave  
+unix  3      [ ]         STREAM     CONNECTED     47159    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     41897    2307/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     31472    1372/dbus-daemon     /run/user/42/bus
+unix  2      [ ]         STREAM     CONNECTED     53385    2993/gnome-software  
+unix  3      [ ]         STREAM     CONNECTED     50213    2849/gsd-sound       
+unix  3      [ ]         STREAM     CONNECTED     42131    2161/ibus-dconf      
+unix  3      [ ]         STREAM     CONNECTED     29529    1211/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     762952   41570/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     40652    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     40528    2318/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     31155    1174/crond           
+unix  3      [ ]         STREAM     CONNECTED     24381    900/auditd           
+unix  3      [ ]         STREAM     CONNECTED     52285    2936/evolution-addr  
+unix  3      [ ]         STREAM     CONNECTED     49324    2838/gsd-rfkill      
+unix  3      [ ]         STREAM     CONNECTED     45992    2768/ibus-portal     
+unix  3      [ ]         STREAM     CONNECTED     40619    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1015625  66401/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     315280   2603/gdm-session-wo  @/tmp/dbus-ogkhsdYT
+unix  3      [ ]         STREAM     CONNECTED     50522    2920/evolution-addr  
+unix  3      [ ]         STREAM     CONNECTED     51343    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     44641    2761/ibus-dconf      
+unix  3      [ ]         STREAM     CONNECTED     31470    1372/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     50214    2849/gsd-sound       
+unix  3      [ ]         STREAM     CONNECTED     45601    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     42119    2152/ibus-daemon     @/tmp/dbus-6Ev9WB4S
+unix  3      [ ]         STREAM     CONNECTED     48093    2836/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     44086    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     27443    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     48305    2624/pulseaudio      
+unix  2      [ ]         DGRAM                    45656    2603/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     47056    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     42689    2289/boltd           
+unix  3      [ ]         STREAM     CONNECTED     28050    948/lsmd             
+unix  2      [ ]         STREAM     CONNECTED     686000   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     53506    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     52426    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     52310    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     42135    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     38957    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     1015635  66401/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     50611    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    49520    2993/gnome-software  
+unix  3      [ ]         STREAM     CONNECTED     51367    2881/gsd-housekeepi  
+unix  3      [ ]         STREAM     CONNECTED     52233    2872/gsd-clipboard   
+unix  2      [ ]         STREAM     CONNECTED     45045    2782/gnome-shell-ca  
+unix  3      [ ]         STREAM     CONNECTED     43677    2289/boltd           
+unix  3      [ ]         STREAM     CONNECTED     51447    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     47666    2633/dbus-daemon     /run/user/0/bus
+unix  2      [ ]         DGRAM                    46984    2318/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     43937    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     38979    1869/at-spi-bus-lau  
+unix  3      [ ]         STREAM     CONNECTED     40607    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     41951    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     691623   27167/gdm-session-w  
+unix  2      [ ]         STREAM     CONNECTED     50647    3088/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     52379    2993/gnome-software  
+unix  3      [ ]         STREAM     CONNECTED     43885    2320/gsd-housekeepi  
+unix  2      [ ]         STREAM     CONNECTED     695068   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     691622   27167/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     561213   2603/gdm-session-wo  @/tmp/dbus-MOFXmJBw
+unix  2      [ ]         STREAM     CONNECTED     55829    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50185    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     43990    2344/gsd-screensave  
+unix  3      [ ]         STREAM     CONNECTED     41223    2164/ibus-x11        
+unix  3      [ ]         STREAM     CONNECTED     25217    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50392    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47194    2488/colord          
+unix  3      [ ]         STREAM     CONNECTED     52311    2856/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     48752    2786/evolution-sour  
+unix  2      [ ]         DGRAM                    509569   1584/upowerd         
+unix  3      [ ]         STREAM     CONNECTED     48306    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     38016    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     24469    947/gssproxy         
+unix  3      [ ]         STREAM     CONNECTED     50654    3088/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     52250    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     49214    2838/gsd-rfkill      
+unix  3      [ ]         STREAM     CONNECTED     46011    2782/gnome-shell-ca  
+unix  3      [ ]         STREAM     CONNECTED     42785    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1017087  8944/gvfsd-trash     @/dbus-vfs-daemon/socket-zIQXMbv0
+unix  3      [ ]         STREAM     CONNECTED     51596    2757/ibus-daemon     @/tmp/dbus-DFVIWmqo
+unix  3      [ ]         STREAM     CONNECTED     50456    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     44648    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     48645    2737/at-spi-bus-lau  
+unix  3      [ ]         STREAM     CONNECTED     44598    2724/gvfsd-fuse      
+unix  3      [ ]         STREAM     CONNECTED     690875   935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     52435    3016/gsd-disk-utili  
+unix  3      [ ]         STREAM     CONNECTED     47997    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44089    2348/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     43934    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     43689    2289/boltd           
+unix  3      [ ]         STREAM     CONNECTED     32026    1135/cupsd           
+unix  3      [ ]         STREAM     CONNECTED     29704    1116/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTED     28054    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     27092    929/bluetoothd       
+unix  2      [ ]         STREAM     CONNECTED     593874   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     56726    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     44642    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     40620    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     39017    1883/at-spi2-regist  
+unix  3      [ ]         STREAM     CONNECTED     27112    936/polkitd          
+unix  3      [ ]         STREAM     CONNECTED     49231    2861/evolution-cale  
+unix  3      [ ]         STREAM     CONNECTED     42893    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     29913    1138/sshd            
+unix  3      [ ]         STREAM     CONNECTED     25787    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48106    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45994    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44595    2718/gvfsd           
+unix  3      [ ]         STREAM     CONNECTED     46736    2307/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     43922    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     40506    2313/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     27320    937/sssd             /var/lib/sss/pipes/private/sbus-monitor
+unix  2      [ ]         STREAM     CONNECTED     812581   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49217    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     31333    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     44727    2805/gvfs-mtp-volum  
+unix  2      [ ]         STREAM     CONNECTED     562279   11866/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     562275   2633/dbus-daemon     /run/user/0/bus
+unix  2      [ ]         STREAM     CONNECTED     77639    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50180    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48046    2801/gvfs-udisks2-v  
+unix  2      [ ]         DGRAM                    45164    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     32280    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     911414   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49420    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     39065    999/platform-python  
+unix  3      [ ]         STREAM     CONNECTED     49430    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     52301    2835/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     50523    2920/evolution-addr  
+unix  3      [ ]         STREAM     CONNECTED     50257    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     759369   41466/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     51450    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     46698    2324/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     35948    1584/upowerd         
+unix  3      [ ]         STREAM     CONNECTED     30960    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     28597    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28108    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     519390   2642/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     52245    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     43927    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     30412    1236/systemd         
+unix  2      [ ]         STREAM     CONNECTED     49961    3106/bash            
+unix  3      [ ]         STREAM     CONNECTED     50674    3101/gnome-terminal  
+unix  2      [ ]         DGRAM                    44324    1413/gnome-session-  
+unix  2      [ ]         STREAM     CONNECTED     1024372  1174/crond           
+unix  3      [ ]         STREAM     CONNECTED     44823    2827/gvfs-afc-volum  
+unix  3      [ ]         STREAM     CONNECTED     45687    2633/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     45688    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     45062    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1017123  2686/gnome-shell     /run/user/0/wayland-0
+unix  3      [ ]         STREAM     CONNECTED     50229    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     51203    2843/gsd-screensave  
+unix  3      [ ]         STREAM     CONNECTED     47317    2603/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     45439    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     26864    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     762951   41570/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     52345    2757/ibus-daemon     @/tmp/dbus-DFVIWmqo
+unix  3      [ ]         STREAM     CONNECTED     52313    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     46079    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     27421    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    25181    942/avahi-daemon: r  
+unix  3      [ ]         STREAM     CONNECTED     1017140  66401/nautilus       
+unix  2      [ ]         STREAM     CONNECTED     850513   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     30609    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     1027762  67132/packagekitd    
+unix  3      [ ]         STREAM     CONNECTED     52263    2918/dconf-service   
+unix  3      [ ]         STREAM     CONNECTED     49254    2878/gsd-datetime    
+unix  3      [ ]         STREAM     CONNECTED     48676    2757/ibus-daemon     @/tmp/dbus-DFVIWmqo
+unix  3      [ ]         STREAM     CONNECTED     47567    2624/pulseaudio      
+unix  3      [ ]         STREAM     CONNECTED     24370    900/auditd           
+unix  3      [ ]         STREAM     CONNECTED     52380    2993/gnome-software  
+unix  3      [ ]         STREAM     CONNECTED     50398    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     42841    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     30100    1211/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     561218   935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50642    3088/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     51560    2993/gnome-software  
+unix  3      [ ]         STREAM     CONNECTED     48717    2782/gnome-shell-ca  
+unix  3      [ ]         STREAM     CONNECTED     40644    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     43926    2324/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     31364    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     759954   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     52298    2936/evolution-addr  
+unix  3      [ ]         STREAM     CONNECTED     46028    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     42831    2331/gsd-mouse       
+unix  3      [ ]         STREAM     CONNECTED     33292    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     911412   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     35502    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     33118    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     29945    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     808610   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     52302    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     51379    2881/gsd-housekeepi  
+unix  3      [ ]         STREAM     CONNECTED     44623    2742/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     49424    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     38015    1877/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     761710   935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     48677    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     47110    2436/ibus-engine-si  
+unix  3      [ ]         STREAM     CONNECTED     315279   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50675    3101/gnome-terminal  
+unix  3      [ ]         STREAM     CONNECTED     49421    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45952    2757/ibus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     37442    1883/at-spi2-regist  
+unix  3      [ ]         STREAM     CONNECTED     30290    1236/systemd         
+unix  3      [ ]         STREAM     CONNECTED     1018075  66401/nautilus       
+unix  2      [ ]         STREAM     CONNECTED     761808   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     27277    976/sssd_be          
+unix  3      [ ]         STREAM     CONNECTED     1015624  66401/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     759955   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     518496   2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     50444    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     40660    2362/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     33101    1413/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     32029    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28270    1030/accounts-daemo  
+unix  2      [ ]         DGRAM                    15794    752/systemd-journal  
+unix  3      [ ]         STREAM     CONNECTED     52258    2918/dconf-service   
+unix  3      [ ]         STREAM     CONNECTED     50183    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48960    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     43988    2348/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     41266    2200/xdg-permission  
+unix  3      [ ]         STREAM     CONNECTED     759653   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     562272   11866/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     49365    2633/dbus-daemon     /run/user/0/bus
+unix  2      [ ]         STREAM     CONNECTED     47639    2633/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     47205    1330/pulseaudio      /run/user/42/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     44112    2361/gsd-sound       
+unix  2      [ ]         STREAM     CONNECTED     795257   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     40484    1372/dbus-daemon     /run/user/42/bus
+unix  3      [ ]         STREAM     CONNECTED     52240    2849/gsd-sound       
+unix  3      [ ]         STREAM     CONNECTED     50389    2871/gsd-a11y-setti  
+unix  3      [ ]         STREAM     CONNECTED     46031    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     30956    1136/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     23834    786/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     44628    2624/pulseaudio      /run/user/0/pulse/native
+unix  3      [ ]         STREAM     CONNECTED     40435    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     28107    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     47987    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45421    2362/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     760813   41570/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     46077    2835/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     47318    2603/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     44320    2329/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     33349    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     558070   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     73782    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51556    3003/tracker-miner-  
+unix  3      [ ]         STREAM     CONNECTED     49381    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48092    2836/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     42756    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    1026707  67132/packagekitd    
+unix  3      [ ]         STREAM     CONNECTED     50216    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44317    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    23638    1/systemd            
+unix  2      [ ]         STREAM     CONNECTED     740336   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     53541    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     43966    2338/gsd-rfkill      
+unix  3      [ ]         STREAM     CONNECTED     42833    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     1027269  988/sssd_nss         /var/lib/sss/pipes/nss
+unix  3      [ ]         STREAM     CONNECTED     51584    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     43993    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    31160    1174/crond           
+unix  2      [ ]         DGRAM                    27430    1031/systemd-logind  
+unix  2      [ ]         STREAM     CONNECTED     759662   41570/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     48647    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     42759    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     52247    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50443    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     48296    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    45630    2611/systemd         
+unix  3      [ ]         STREAM     CONNECTED     1033355  988/sssd_nss         /var/lib/sss/pipes/nss
+unix  2      [ ]         STREAM     CONNECTED     994390   1031/systemd-logind  
+unix  3      [ ]         STREAM     CONNECTED     47319    2603/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     44653    2792/goa-daemon      
+unix  3      [ ]         STREAM     CONNECTED     48754    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     45756    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     46002    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     29351    1135/cupsd           
+unix  2      [ ]         STREAM     CONNECTED     755802   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50562    2686/gnome-shell     /run/user/0/wayland-0
+unix  3      [ ]         STREAM     CONNECTED     52292    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     43991    2348/gsd-sharing     
+unix  3      [ ]         STREAM     CONNECTED     42755    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     38014    1877/dbus-daemon     
+unix  2      [ ]         STREAM     CONNECTED     32897    1283/(sd-pam)        
+unix  3      [ ]         STREAM     CONNECTED     51534    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     44622    2742/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     40611    2335/gsd-print-noti  
+unix  2      [ ]         DGRAM                    25192    946/ModemManager     
+unix  2      [ ]         DGRAM                    26111    947/gssproxy         
+unix  3      [ ]         STREAM     CONNECTED     52344    2986/tracker-miner-  
+unix  3      [ ]         STREAM     CONNECTED     49325    2885/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     45713    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     43887    2320/gsd-housekeepi  
+unix  3      [ ]         STREAM     CONNECTED     37387    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     511763   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     47634    2633/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     44301    2164/ibus-x11        
+unix  3      [ ]         STREAM     CONNECTED     24380    900/auditd           
+unix  3      [ ]         STREAM     CONNECTED     1018076  66401/nautilus       
+unix  3      [ ]         STREAM     CONNECTED     759651   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     558467   2603/gdm-session-wo  @/tmp/dbus-ogrMxolw
+unix  2      [ ]         STREAM     CONNECTED     538391   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49462    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     50544    2931/ibus-engine-si  
+unix  3      [ ]         STREAM     CONNECTED     41963    1805/Xwayland        @/tmp/.X11-unix/X1024
+unix  3      [ ]         STREAM     CONNECTED     52412    2994/tracker-store   
+unix  3      [ ]         STREAM     CONNECTED     50396    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     32696    1413/gnome-session-  
+unix  3      [ ]         STREAM     CONNECTED     690868   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     49351    2633/dbus-daemon     /run/user/0/bus
+unix  3      [ ]         STREAM     CONNECTED     48588    2718/gvfsd           
+unix  3      [ ]         STREAM     CONNECTED     50592    3048/gconfd-2        
+unix  3      [ ]         STREAM     CONNECTED     50579    2742/dbus-daemon     @/tmp/dbus-tcZI6QUwRN
+unix  3      [ ]         STREAM     CONNECTED     49303    2885/gsd-media-keys  
+unix  3      [ ]         STREAM     CONNECTED     48326    2639/gdm-wayland-se  
+unix  2      [ ]         STREAM     CONNECTED     29961    1167/gdm             
+unix  3      [ ]         STREAM     CONNECTED     52238    2642/gnome-session-  @/tmp/.ICE-unix/2642
+unix  3      [ ]         STREAM     CONNECTED     50452    2731/Xwayland        @/tmp/.X11-unix/X0
+unix  3      [ ]         STREAM     CONNECTED     48066    2642/gnome-session-  @/tmp/.ICE-unix/2642
+unix  3      [ ]         STREAM     CONNECTED     40508    2313/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     50656    3088/platform-pytho  
+unix  3      [ ]         STREAM     CONNECTED     45417    2324/gsd-keyboard    
+unix  3      [ ]         STREAM     CONNECTED     43936    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     41899    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     28141    935/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     1026683  1116/NetworkManager  
+unix  3      [ ]         STREAM     CONNECTED     49791    3069/fwupd           
+unix  3      [ ]         STREAM     CONNECTED     52430    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     44775    2819/goa-identity-s  
+unix  3      [ ]         STREAM     CONNECTED     48951    2801/gvfs-udisks2-v  
+unix  3      [ ]         STREAM     CONNECTED     45444    1372/dbus-daemon     /run/user/42/bus
+unix  2      [ ]         DGRAM                    30436    1211/gdm-session-wo  
+unix  3      [ ]         STREAM     CONNECTED     25352    1030/accounts-daemo  
+unix  2      [ ]         STREAM     CONNECTED     981499   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     48060    2809/gvfs-gphoto2-v  
+unix  2      [ ]         DGRAM                    44482    2618/(sd-pam)        
+unix  3      [ ]         STREAM     CONNECTED     44309    2333/gsd-power       
+unix  3      [ ]         STREAM     CONNECTED     40039    2152/ibus-daemon     
+unix  2      [ ]         STREAM     CONNECTED     744629   2686/gnome-shell     
+unix  2      [ ]         STREAM     CONNECTED     691629   27167/gdm-session-w  
+unix  3      [ ]         STREAM     CONNECTED     52312    2876/gsd-color       
+unix  3      [ ]         STREAM     CONNECTED     45878    2737/at-spi-bus-lau  
+unix  3      [ ]         STREAM     CONNECTED     45418    2362/gsd-wacom       
+unix  3      [ ]         STREAM     CONNECTED     33806    1488/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     50429    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     45575    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    23197    786/systemd-udevd    
+unix  2      [ ]         STREAM     CONNECTED     913687   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     51443    2882/gsd-keyboard    
+unix  2      [ ]         STREAM     CONNECTED     49314    2836/gsd-print-noti  
+unix  3      [ ]         STREAM     CONNECTED     50484    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     47993    2786/evolution-sour  
+unix  3      [ ]         STREAM     CONNECTED     47157    2313/gsd-clipboard   
+unix  3      [ ]         STREAM     CONNECTED     46934    2307/gsd-xsettings   
+unix  3      [ ]         STREAM     CONNECTED     42886    2344/gsd-screensave  
+unix  3      [ ]         STREAM     CONNECTED     1028415  67132/packagekitd    
+unix  3      [ ]         STREAM     CONNECTED     49464    2994/tracker-store   
+unix  3      [ ]         STREAM     CONNECTED     51371    2882/gsd-keyboard    
+unix  2      [ ]         DGRAM                    44592    2633/dbus-daemon     
+unix  3      [ ]         STREAM     CONNECTED     36321    1869/at-spi-bus-lau  
+unix  2      [ ]         STREAM     CONNECTED     806224   2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     517511   8934/gvfsd-metadata  
+unix  3      [ ]         STREAM     CONNECTED     49382    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     49305    2861/evolution-cale  
+unix  2      [ ]         STREAM     CONNECTED     47996    2686/gnome-shell     
+unix  3      [ ]         STREAM     CONNECTED     47950    2737/at-spi-bus-lau  
+unix  3      [ ]         STREAM     CONNECTED     42807    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    30384    1283/(sd-pam)        
+Active Bluetooth connections (servers and established)
+Proto  Destination       Source            State         PSM DCID   SCID      IMTU    OMTU Security
+l2cap  b8:ee:65:33:2f:e8 *                 LISTEN         25 0x0000 0x0000     672       0 MEDIUM 
+l2cap  b8:ee:65:33:2f:e8 *                 LISTEN         27 0x0000 0x0000     672       0 MEDIUM 
+l2cap  b8:ee:65:33:2f:e8 *                 LISTEN         23 0x0000 0x0000     672       0 MEDIUM 
+l2cap  b8:ee:65:33:2f:e8 *                 LISTEN         15 0x0000 0x0000    1691    1691 MEDIUM 
+l2cap  b8:ee:65:33:2f:e8 *                 LISTEN         19 0x0000 0x0000     672       0 LOW    
+l2cap  b8:ee:65:33:2f:e8 *                 LISTEN         17 0x0000 0x0000     672       0 LOW    
+l2cap  *                 *                 LISTEN          3 0x0000 0x0000    1013       0 SDP    
+l2cap  *                 *                 LISTEN          1 0x0000 0x0000     672       0 SDP    
+Proto  Destination       Source            State     Channel
+rfcomm b8:ee:65:33:2f:e8 *                 LISTEN         13
+rfcomm b8:ee:65:33:2f:e8 *                 LISTEN         12
+rfcomm b8:ee:65:33:2f:e8 *                 LISTEN          3

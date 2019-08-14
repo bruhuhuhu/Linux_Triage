@@ -1,0 +1,30 @@
+*****LOCAL SYSTEM LOG FILE INFORMATION*****
+total 584
+-rw-------  1 root  wheel     10053 Aug  6 04:19 auth.log
+-rw-r--r--  1 root  wheel     47391 May 16 21:46 bsdinstall_log
+-rw-------  1 root  wheel     87947 Aug  6 07:40 cron
+-rw-------  1 root  wheel      2744 Aug  6 07:41 debug.log
+-rw-r--r--  1 root  wheel        64 May 16 21:47 devd.log
+-rw-------  1 root  wheel      8956 Aug  6 03:01 dmesg.today
+-rw-------  1 root  wheel     17778 Jul 12 03:01 dmesg.yesterday
+-rw-r--r--  1 root  wheel        64 May 16 21:47 lpd-errs
+-rw-r-----  1 root  wheel      2579 Aug  6 04:02 maillog
+-rw-r-----  1 root  wheel       927 Aug  6 00:00 maillog.0.bz2
+-rw-r-----  1 root  wheel       317 Jul 12 00:00 maillog.1.bz2
+-rw-r-----  1 root  wheel       323 Jul 11 00:00 maillog.2.bz2
+-rw-r-----  1 root  wheel       600 Jul 10 00:00 maillog.3.bz2
+-rw-r-----  1 root  wheel       645 May 24 00:00 maillog.4.bz2
+-rw-r--r--  1 root  wheel    333794 Aug  6 07:41 messages
+-rw-------  1 root  wheel        58 Jul 12 03:01 mount.today
+-rw-r-----  1 root  network      64 May 16 21:47 ppp.log
+-rw-------  1 root  wheel        64 May 16 21:47 security
+-rw-r-----  1 root  wheel      1448 Aug  6 04:02 sendmail.st
+-rw-r-----  1 root  wheel      1448 Aug  5 23:00 sendmail.st.0
+-rw-r-----  1 root  wheel         0 Jul  9 18:00 sendmail.st.1
+-rw-r-----  1 root  wheel         0 May 29 19:00 sendmail.st.2
+-rw-r-----  1 root  wheel         0 May 18 01:00 sendmail.st.3
+-rw-------  1 root  wheel      3112 Jul 12 03:01 setuid.today
+-rw-------  1 root  wheel       188 Jul 11 19:26 userlog
+-rw-r--r--  1 root  wheel       197 Aug  5 22:50 utx.lastlogin
+-rw-r--r--  1 root  wheel      1371 Aug  5 22:50 utx.log
+-rw-------  1 root  wheel        64 May 16 21:47 xferlog

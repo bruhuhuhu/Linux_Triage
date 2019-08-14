@@ -1,0 +1,2 @@
+*****Checking All Services Running*****
+ 17:40:27 up 2 days,  2:11,  1 user,  load average: 0.03, 0.02, 0.00

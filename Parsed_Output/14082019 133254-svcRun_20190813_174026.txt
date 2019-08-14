@@ -1,0 +1,3 @@
+*****Checking All Services Running*****
+vmtoolsd is running
+Thinprint daemon is NOT running.
